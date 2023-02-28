@@ -27,6 +27,7 @@ function save() {
 function reset() {
     saveEl.textContent = "Previous entries: "
     count = 0
-    totalEl.textContent = "Total Passengers: "
+    totalEl.textContent = 0
     totalCount = 0
+    countEl.textContent = 0
 }
